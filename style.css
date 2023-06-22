@@ -1,0 +1,33 @@
+h3 {
+  text-align: center;
+  color: blue;
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+  color: rgb(35, 150, 176);
+  font-style: italic;
+}
+.skill-header {
+  text-align: left;
+}
+p {
+  text-align: center;
+}
+
+.skill-container {
+  border: solid rgb(51, 212, 175);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8bx;
+  padding-right: 8px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}

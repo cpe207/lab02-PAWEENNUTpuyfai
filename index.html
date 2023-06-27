@@ -4,25 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Porfolio</h1>
-    <p style="text-align: center; margin-right: 5px">
-      <a href="index.html">Home</a> |
-      <a href="experience.html" style="margin-left: 5px">Experience</a> |
-      <a style="margin-left: 5px" href="contact.html">Contact Me</a>
-    </p>
-    <div class="flex"><img src="images/IMG_2896.jpg" width="250px" /></div>
-    <h3>Paweennut Prohsoontorn</h3>
-    <p>My name is puyfai. Nice to meet you.</p>
-    <div class="skill-container">
-      <h3>Programming</h3>
-      <p>I can code c++</p>
+    <div
+      class="d-flex justify-content-center border-bottom gap-4 align-items-center p-4 NB" style="margin-bottom: 10px;"
+    >
+      <a href="index.html" class="Home-color">Home</a>
+      <a href="experience.html" class="Home-color">Experience</a>
+      <a href="gallery.html" class="Home-color">My Gallery</a>
+      <a href="contact.html" class="Home-color">Contact Me</a>
     </div>
-    <div class="skill-container">
-      <h3>skill</h3>
-      <p>I can sleep all day and everywhere.</p>
+    <h1 style="margin-bottom: 15px;">My Porfolio</h1>
+    <div class="d-flex justify-content-center align-items-center mx-auto gap-3 Profile" style="max-width: 600px">
+      <div>
+        <img src="images/IMG_2896.jpg" class="rounded-circle" width="150" height="150" style="object-fit: cover">
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-6 mb-3">Paweennut Prohsoontorn</div>
+        <div class="text-muted">
+          My name is puyfai. I am studying Computer Engineering at Chiang Mai
+          University.
+        </div>
+      </div>
     </div>
+    <div style="max-width: 475px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all Background">
+        <div class="my-rounded-left">
+          <img src="images/R (1).jpg" width="150px" height="150px" style="object-fit: cover" class="my-rounded-left d-none d-sm-block">
+        </div>
+        <div class="p-4 ">
+          <p class="fw-semibold fs-5 ">Programming</p>
+          <span class="text-muted">
+            I can code c++.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all Background">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">skill</p>
+          <span class="text-muted">
+            I can sleep all day and everywhere.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img src="images/Skills-300x207.webp" width="150px" height="150px" style="object-fit: cover" class="my-rounded-right d-none d-sm-block">
+        </div>
+      </div>
+
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
